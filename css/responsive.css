@@ -1,0 +1,167 @@
+@media only screen and (max-width:1400px){
+
+    .about .left .img-box{
+        width: 90%;
+    }
+
+}
+
+@media only screen and (max-width:1024px){
+    .products .box{
+        height: 29rem;
+    }
+
+
+}  
+@media only screen and (max-width:990px){
+    /* header starts from here  */
+    header .top-line{
+        display: none;
+    }
+
+    /* header starts from here  */
+    
+}
+@media only screen and (max-width:769px){
+    /* banner starts from here  */
+    .banner .ban .title{
+        font-size: 3rem;
+        line-height: 3rem;
+        /* color: black; */
+    }
+    /* banner ends from here  */
+
+    /* about starts from here     */
+    
+    .about .left .img-box{
+        width: 80%;
+        /* height: 25rem; */
+    }
+    .about .right .sub-title::after{
+        display: none;
+
+    }
+    /* about starts from here     */
+        /* products starts from here  */
+        .products .box{
+            height: 26rem;
+            /* background-color: red; */
+        }
+        /* .products .box .img-box{
+            height: 15rem;
+        }  */
+        /* products ends from here  */
+
+
+}
+
+@media only screen and (max-width:575px){
+    h2{
+        font-size: 2.1rem;
+    }
+    .btn-anchor{
+        width: 2rem;
+        height: 2rem;
+    }
+    .btn-anchor .up-btn{
+        font-size: 2rem;
+    }
+
+    /* banner starts from here  */
+    .banner .ban{
+        padding: 30% 2% 1%;
+        width: 90%;
+    }
+    .banner .ban .title1{
+        font-size: 1.2rem;
+
+    }
+    .banner .ban .title{
+        font-size: 2.3rem;
+        line-height: 3rem;
+        /* color: black; */
+    }
+    .banner .ban .p{
+        font-size: .9rem ;
+        /* color: black ; */
+    }
+    /* banner ends from here  */
+    
+    /* about start from here  */
+        
+    .about .left .img-box{
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        /* padding: 3%; */
+    
+    }
+    
+    .about .left img{
+        width: 140%;
+    }
+    
+    .about .left .deco1{
+        border: .6rem solid var(--primary);
+        width: 60%;
+        height: 55%;
+        top: 10%;
+        left: -7%;
+    
+    }
+    .about .left .deco2{
+        border: .6rem solid var(--primary);
+        width: 60%;
+        height: 60%;
+        top: 30%;
+        right: -7%;
+    
+    }
+    
+    
+    .about .right .sub-title::after{
+        display: none;
+    
+    }
+    /* about ends from here  */
+    /* products starts from here  */
+    .products .box{
+        height: 35rem;
+    }
+    .products .box .img-box{
+        height: 20rem;
+    } 
+
+
+
+
+
+    footer .input-group-text{
+        padding: 0% 8%; 
+
+
+
+    }
+    
+}
+@media only screen and (max-width:375px){
+
+
+    .banner .ban{
+        padding: 40% 2% 1%;
+    }
+    /* products starts from here  */
+    .products .box{
+        height: 30rem;
+        /* background-color: red; */
+    }
+    .products .box .img-box{
+        height: 15rem;
+    } 
+    /* products ends from here  */
+
+
+}
+    

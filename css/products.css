@@ -1,0 +1,8 @@
+.banner{
+    width: 100%;
+    min-height: 50vh;
+    color: white !important;
+    background-image: linear-gradient(to left, rgba(0,0,0,0.1),rgba(0,0,0,.9)), url(../images/banner-4.jpg)  ;
+    background-position: center ;
+    background-size: cover;
+}

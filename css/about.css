@@ -1,0 +1,50 @@
+.banner{
+    width: 100%;
+    min-height: 50vh;
+    color: white !important;
+    background-image: linear-gradient(to left, rgba(0,0,0,0.1),rgba(0,0,0,.9)), url(../images/banner-4.jpg)  ;
+    background-position: center ;
+    background-size: cover;
+}
+.about .left {
+    padding: 3% 0;
+}
+
+.about .left .img-box{
+    position: relative;
+    padding: 3% 0;
+    /* background-color: forestgreen; */
+}
+
+.about .left img{
+    margin: 5% auto;
+    width: 80%;
+    /* height: 65%; */
+    z-index: 2;
+    transition: 1s;
+
+}
+.about:hover img{
+    transform: scale(1.05);
+}
+.about .left .deco1{
+    /* background-color: var(--primary); */
+    border: .6rem solid var(--primary);
+    width: 60%;
+    height: 55%;
+    position: absolute;
+    top:0%;
+    left: 0%;
+
+}
+.about .left .deco2{
+    /* background-color: var(--primary); */
+    border: .6rem solid var(--primary);
+    width: 60%;
+    height: 55%;
+    position: absolute;
+    top: 45%;
+    right: 0%;
+    z-index: 1;
+
+}
