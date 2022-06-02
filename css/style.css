@@ -555,7 +555,6 @@ footer .copy-right{
 /* Footer starts from here  */
 
 
-
 /* .pro-list starts from here  */
 
 .pro-list{
@@ -565,7 +564,7 @@ footer .copy-right{
     background-color: var(--primary);
     color: white;
     padding: 3% 4%;
-    font-size: 2rem;
+    font-size: 1.5rem;
 
 }
 .pro-list ul{
@@ -573,12 +572,12 @@ footer .copy-right{
     padding: 0;
 }
 .pro-list ul li{
-    background-color: rgb(250, 240, 227);
-    color: var(--primary);
-    padding: 0% 5%;
+    background-color: var(--primary);
+    color: white;
+    padding: 1% 5%;
     margin: 1% 0;
-    font-size: 1.6rem;
-    font-weight: 300;
+    font-size: 1.2rem;
+    font-weight: 600;
     position: relative;
     transition: 0.3s all ease-in-out;
     
@@ -591,7 +590,50 @@ footer .copy-right{
 
 .pro-list ul li:hover{
     background-color: var(--secondary);
-    color: white;
+    color: var(--primary-2);
 }
 
 /* .pro-list ends here  */
+
+
+
+/* .ser-list starts from here  */
+
+.ser-list{
+    margin: 5% 0;
+    /* background-color: var(--primary); */
+}
+.ser-list h3{
+    background-color: var(--primary);
+    color: white;
+    padding: 3% 4%;
+    font-size: 1.5rem;
+
+}
+.ser-list ul{
+    list-style: none;
+    padding: 0;
+}
+.ser-list ul li{
+    background-color: var(--primary);
+    color: white;
+    padding: 1% 5%;
+    margin: 1% 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    position: relative;
+    transition: 0.3s all ease-in-out;
+    
+}
+.ser-list .fas{
+    position: absolute;
+    top: 20%;
+    right: 5%;
+}
+
+.ser-list ul li:hover{
+    background-color: var(--secondary);
+    color: var(--primary-2);
+}
+
+/* .ser-list ends here  */
