@@ -152,7 +152,7 @@ p{
 }
 
 .active{
-    color: var(--primary) !important;
+    color: black !important;
 
 }
 
@@ -186,6 +186,19 @@ p{
 label {
     font-size: 1.5rem;
 }
+
+
+.side img{
+    width: 100%;
+    background-image: none;
+    position: absolute;
+    bottom: 0%;
+    /* top: 0; */
+    right: -5%;
+    z-index: 1;
+    background-color: red;
+}
+
 ----------------------------------------
 ----------------------------------------
 ----------------------------------------
