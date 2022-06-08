@@ -49,6 +49,28 @@ a:hover{
     font-size: 3rem;
     color: var(--secondary);
 }
+.btn-whatsapp{
+    /* background-color: var(--primary); */
+    background: none;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    /* padding: .7rem; */
+    color: var(--secondary);
+    border-radius: 5%;
+    position: absolute;
+    top: 80%;
+    right: 3%;
+    position: fixed;
+    z-index: 1;
+    border: none;
+    display: inline-block;
+    align-items: center;
+}
+.btn-whatsapp i{
+    font-size: 3rem;
+    color: var(--secondary);
+}
 
 /* 
 .btn-anchor i:hover{
@@ -226,6 +248,10 @@ header .top-line .right span{
     display: inline;
     /* background-color: var(--secondary); */
     padding: 2% 3%;
+}
+
+header .top-line button{
+    margin-bottom: 0;
 }
 
 header .fas{
