@@ -265,6 +265,10 @@ header .fas{
 .navbar-brand span{
     color: var(--primary);
 }
+.navbar-brand img{
+    width: 90px;
+
+}
 
 .navbar-light .navbar-nav .nav-link {
     color: var(--secondary);
